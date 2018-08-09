@@ -7,4 +7,4 @@ Legendre-Gauss Quadrature Weights and Nodes are used to estimate the integral nu
 To find L-G quadrature nodes you need to "lgwt.m" function written by Greg von Winckel dowloaded from:
 https://www.mathworks.com/matlabcentral/fileexchange/4540-legendre-gauss-quadrature-weights-and-nodes
 
-Note: I have writtent this as a subroutine (and many more) because I frequenctly use it in part of my own PhD thesis. Use this at your own risk.
+Note: I have writtent this as a subroutine (and many more) because I frequenctly use it in part of my own research. Use this at your own risk.

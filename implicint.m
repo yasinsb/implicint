@@ -3,6 +3,8 @@ function yint = implicint(func,wgtfun,LB,UB,Npoints,x0)
 %solution and should be sovled for y = imp_fun(x) given the form of x = func(y) 
 %LU and UB are the lower and upper bound to find inverse and take integral over
 %increase Npoints to inprove accuracy, this may result in low speed.
+% wgtfun is an optional weight function, such as a PDF function to integral over. 
+%It could be ignored by giving by y = 1 function instead.
 if nargin ==5
     x0 =0;
     warning('Not having an starting point might slow down the extimation or end up giving no answer')
